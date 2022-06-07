@@ -151,7 +151,7 @@ fill_nas <- function(column){
 }
 
 # Load csv with position info
-position_data <- read_csv('positions_PHR.csv') %>% 
+position_data <- read_csv('PHR_cv0603_csv.csv') %>%
   mutate_all(fill_nas) %>% 
   arrange(order, desc(end)) %>% 
   mutate(id = 1:n()) %>% 
@@ -194,7 +194,7 @@ Aside
 ================================================================================
 
 
-![logo](haoran.jpg){width=100%}
+![logo](phr_zhengjian.jpg){width=75%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -207,7 +207,8 @@ Contact 联系方式{#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> panpyhr@gmail.com
+<!-- - <i class="fa fa-envelope"></i> panpyhr@gmail.com -->
+- <i class="fa fa-envelope"></i> haoranpan@foxmail.com
 - <i class="fa fa-phone"></i> (86) 18050289917
 - <i class="fa fa-qq"></i> 994920946
 
@@ -236,12 +237,12 @@ Disclaimer {#disclaimer}
 
 <!-- View online of the full version CV at [github/cv](https://github.com/valderpan/cv). -->
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+<!-- Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  -->
 
 The source code is available at [github.com/valderpan/cv](https://github.com/valderpan/cv).
 
 Last updated on `r Sys.Date()`.
-
+<!-- Last updated on 2022-03-12. -->
 
 <br>
 <br/>
